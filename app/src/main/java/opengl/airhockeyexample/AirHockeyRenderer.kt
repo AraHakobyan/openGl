@@ -97,6 +97,7 @@ class AirHockeyRenderer : GLSurfaceView.Renderer {
         vertexData?.position(0)
         glVertexAttribPointer(aPositionLocation, POSITION_COMPONENT_COUNT, GL_FLOAT, false, 0, vertexData)
         glEnableVertexAttribArray(aPositionLocation)
+
     }
 
 }
